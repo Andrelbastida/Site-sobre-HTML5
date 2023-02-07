@@ -34,6 +34,15 @@ main{
     gap: 30px;
     align-items: center;
 }
+#contato form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+}
 footer{
     display: flex;
     flex-direction: row;
