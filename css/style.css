@@ -41,7 +41,28 @@ main{
     min-height: 100vh;
 }
 #inicio{
-    margin-top: 8vh
+    margin-top: 8vh;
+    text-align: center;
+}
+#linguagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.texto99{
+    gap: 1000px;
+}
+.texto-imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagem-linguagens{
+    height: 10vw;
+    width: auto;
+    filter: invert(100%);
 }
 #contato form{
     display: flex;
