@@ -27,7 +27,10 @@ header ul{
     flex-direction: row;
     justify-content: space-around;
     list-style:none;
-
+}
+header a{
+    text-decoration: none;
+    color: white;
 }
 main{
     background-image: linear-gradient(to right,rgba(20, 0, 30, 0.5),rgba(40,0,70,0.5),rgba(20,0,30,0.5));
@@ -36,6 +39,9 @@ main{
     gap: 30px;
     align-items: center;
     min-height: 100vh;
+}
+#inicio{
+    margin-top: 8vh
 }
 #contato form{
     display: flex;
