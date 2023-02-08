@@ -84,7 +84,7 @@ section{
 #sobre{
     background-color: rgb(84, 40, 103);
     box-shadow: 3px 5px 15px rgb(150,50,150);
-    border-radius: 5%;
+    border-radius: 10px;
     display: flex;
     flex-direction:column;
     font-family: ;
@@ -155,9 +155,13 @@ padding-top: 20px;
 }
 #contato input{
     height: 30px;
+    padding-left: 5px;
 }
 #mensagem{
     height: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+    resize: none;
 }
 .checkbox{
     display: flex;
